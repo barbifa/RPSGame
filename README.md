@@ -5,6 +5,22 @@ A virtual version of rock paper scissors! Two players compete by choosing an opt
 ## Project Roadmap File
 [Project roadmap Google Doc link](https://docs.google.com/document/d/15gKnuETX0Z-GodusE8Luvbn65flAFX-6kmnsh3VmR3o/edit?usp=sharing)
 
+
+# :closed_book: MMED-1054 Assigment
+
+The assigment was to encapsulate the functions and make the game better.
+
+# :earth_americas: Description 
+- Some Graphics were added
+- Function for input validation
+- Encapsulate functions that compare user choice
+
+Built using:
+--------------------------------------------------------------------------------
+[git](https://git-scm.com/) for source control and
+Python 3.8
+
+
 ## MIT License
 
 Copyright 2021 Tina Vandervecht
