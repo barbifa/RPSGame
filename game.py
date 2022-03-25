@@ -1,14 +1,18 @@
 from random import randint
 
 # re-import our game variables
-from gameComponents import gameVars, winLose
+from gameComponents import gameVars, winLose, graphicsFunctions
 
 while gameVars.player_choice is False:
     print("==================*/ RPS GAME */====================")
-    print("Computer Lives:", gameVars.computer_lives, "/", gameVars.total_lives)
-    print("Player Lives:", gameVars.player_lives, "/", gameVars.total_lives)
-    print("====================================================")
+    print("Computer Lives:", end='')
+    graphicsFunctions.drawlives(gameVars.computer_lives)
+    print("\nPlayer Lives:", end='')
+    graphicsFunctions.drawlives(gameVars.player_lives)
+    print("\n====================================================")
     print("Choose your weapon! Or type quit to exit\n") #\n means "new line"
+
+
     gameVars.player_choice = input("Choose rock, paper, or scissors: \n")
 
     if gameVars.player_choice == "quit":
