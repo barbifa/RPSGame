@@ -17,7 +17,7 @@ The assigment was to encapsulate the functions and make the game better.
 
 Built using:
 --------------------------------------------------------------------------------
-[git](https://git-scm.com/) for source control
+[git](https://git-scm.com/) for source control and
 Python 3.8
 
 
