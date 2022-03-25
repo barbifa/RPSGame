@@ -3,11 +3,11 @@ from gameComponents import gameVars
 # define a win / lose function and refer to it (invoke it) in our game loop
 def winorlose(status):
     if status == "won":
-        pre_message = "You are the huuuuuuugest winner ever! "
+        pre_message = "======== You are the huuuuuuugest winner ever! ======== "
     else:
-        pre_message = "You done trumped it, loser! "
+        pre_message = "!!!!!!!!!! You done trumped it, LOSER! !!!!!!!!!!"
 
-    print(pre_message + 'Would you like to play again?')
+    print(pre_message + '\nWould you like to play again?')
 
     choice = False
 
@@ -26,3 +26,5 @@ def winorlose(status):
         else:
             print("Make a valid choice - Y or N")
             choice = False
+
+
