@@ -17,8 +17,8 @@ The assigment was to encapsulate the functions and make the game better.
 
 Built using:
 --------------------------------------------------------------------------------
-[HTML5](https://developers.google.com/web/)  
 [git](https://git-scm.com/) for source control
+Python 3.8
 
 
 ## MIT License
